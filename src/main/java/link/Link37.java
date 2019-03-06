@@ -10,11 +10,11 @@ import java.util.HashMap;
 public class Link37 {
 
 
-    public ListNode FindFirstCommonNode(ListNode pHead1, ListNode pHead2){
-        ListNode cur1=pHead1;
-        ListNode cur2=pHead2;
+    public Link57.ListNode FindFirstCommonNode(Link57.ListNode pHead1, Link57.ListNode pHead2){
+        Link57.ListNode cur1=pHead1;
+        Link57.ListNode cur2=pHead2;
 
-        HashMap<ListNode,Integer> map=new HashMap<>();
+        HashMap<Link57.ListNode,Integer> map=new HashMap<>();
         while (cur1!=null){
 
             map.put(cur1,null );

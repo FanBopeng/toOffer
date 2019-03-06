@@ -10,7 +10,7 @@ package link;
 
 public class Link16 {
 
-    public ListNode ReverseList(ListNode head) {
+    public Link57.ListNode ReverseList(Link57.ListNode head) {
 
         if (head == null) {
             //head为当前节点，如果当前节点为空的话，那就什么也不做，直接返回null；
@@ -24,8 +24,8 @@ public class Link16 {
         //所以需要用到pre和next两个节点
         //1->2->3->4->5
         //1<-2<-3 4->5
-        ListNode cur = null;
-        ListNode pre = null;
+        Link57.ListNode cur = null;
+        Link57.ListNode pre = null;
         while (head != null) {
 
 
