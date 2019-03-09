@@ -32,7 +32,7 @@ public class QuickSort {
 
             swap(arr, L + (int) (Math.random() * (R - L + 1)), R);
             int[] p = partition(arr, L, R);
-            quickSort(arr, L, p[0 ]-1);
+            quickSort(arr, L, p[0]-1);
             quickSort(arr, p[1] + 1, R);
 
         }
